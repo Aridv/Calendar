@@ -33,10 +33,7 @@ Methods:
 ### Example of use
 -Always check if your calendar class exists before using!
 
-var calendar = new calendar();
-
-calendar.initEvents();
-
-calendar.setDate(yourSqlDate);
-
+var calendar = new calendar();  
+calendar.initEvents();  
+calendar.setDate(yourSqlDate);  
 calendar.setFilterData(yourDatatablesObject); // Optional
