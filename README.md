@@ -1,4 +1,4 @@
-# Calendar
+# Custom Calendar Datepicker
 Calendar library class to customize your own calendar.
 
 ### What you need
