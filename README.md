@@ -10,7 +10,7 @@ Optional:
 * ```You may include some Datatables editor for filtering by date, the calendar is using Metronic Datatables as example```
 
 ### Using the Calendar
-The main functionality resides in the design of the calendar and the changeDate event. You can use this class to trigger events or implement new methods. Each click in a certain date will display an understandable text to the user, for example "14th March 2016" instead of "14/3/16", this last value (the date itself) will be stored in a hidden input and will be mapped against the controller. Each click includes a functionality to filter the data by the selected date.
+The main functionality resides in the design of the calendar and the changeDate event. You can use this class to trigger events or implement new methods. Each click in a certain date will display an understandable text to the user, for example "14th March 2016" instead of "14/3/16", this last value (the date itself) will be stored in a hidden input and will be mapped against the controller. Each click includes a functionality to filter the data by the selected date if desired.
 
 By default I was working on SQLServer and in my case I had the next format 'dd/mm/yyyy hh:mm:ss', which is not a valid date format for Javascript. Modify the format conversion at your earliest convenience. The Javascript accepted format: 'dd/mm/yyyy'
 
